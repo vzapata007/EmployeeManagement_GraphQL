@@ -2,12 +2,6 @@ USE [master]
 GO
 /****** Object:  Database [EmployeManagementGraphQL]    Script Date: 04/28/24 14:21:36 ******/
 CREATE DATABASE [EmployeManagementGraphQL]
- CONTAINMENT = NONE
- ON  PRIMARY 
-( NAME = N'EmployeManagementGraphQL', FILENAME = N'C:\Program Files\Microsoft SQL Server\MSSQL16.SQLEXPRESS\MSSQL\DATA\EmployeManagementGraphQL.mdf' , SIZE = 8192KB , MAXSIZE = UNLIMITED, FILEGROWTH = 65536KB )
- LOG ON 
-( NAME = N'EmployeManagementGraphQL_log', FILENAME = N'C:\Program Files\Microsoft SQL Server\MSSQL16.SQLEXPRESS\MSSQL\DATA\EmployeManagementGraphQL_log.ldf' , SIZE = 8192KB , MAXSIZE = 2048GB , FILEGROWTH = 65536KB )
- WITH CATALOG_COLLATION = DATABASE_DEFAULT, LEDGER = OFF
 GO
 ALTER DATABASE [EmployeManagementGraphQL] SET COMPATIBILITY_LEVEL = 160
 GO
